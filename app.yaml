@@ -1,0 +1,16 @@
+runtime: php55
+api_version: 1
+instance_class: F1
+automatic_scaling:
+  min_idle_instances: 1
+  max_idle_instances: 1  # default value
+  min_pending_latency: 10s  # default value
+  max_pending_latency: 15s
+
+handlers:
+- url: /pg.html*
+  script: pg.php
+- url: /fs.html*
+  script: fs.php
+- url: /swrtc.js*
+  script: swrtc.js
