@@ -20,7 +20,7 @@ document.addEventListener("keydown", function(e) {
 			if (freq.length < 5) {
 				return;
 			}
-			atc = window.open("https://geofs-atc.appspot.com/pg.html?" + freq,'_blank', 'toolbar=no,status=no,menubar=no,scrollbars=no,resizable=no,left=10000, top=10000, width=10, height=10, visible=none', ''); 
+			atc = window.open("https://GeofsATC-1.w72702.repl.co/pg.html?" + freq,'_blank', 'toolbar=no,status=no,menubar=no,scrollbars=no,resizable=no,left=10000, top=10000, width=10, height=10, visible=none', ''); 
 		}
 		else {
 			// Push to talk TRUE
